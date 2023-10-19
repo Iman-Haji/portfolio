@@ -10,6 +10,47 @@ body {
   color: #D6AD60;
 }
 
+.backgroundIMG img {
+  opacity: 22%;
+  width: 1800px;
+  height: 999px;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  /*border: 5px solid;*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 7px;
+  text-align: center;
+  color: white;
+}
+
+.welcomeTo {
+  color: #f0f2f9;
+  position: absolute;
+  top: 43%;
+  left: 36%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+
+.myPortfolio {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Monsieur La Doulaise', serif;
+  font-size: 100px;
+}
 
 .header {
   position: fixed;
@@ -21,7 +62,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .logo {
@@ -45,11 +85,16 @@ body {
   position: absolute;
   top: 100%;
   left: 0;
-  width: 100%;
+  width: 0%;
   height: 1.5px;
   background: #1A1423;
+  transition: 0.5s;
 }
 
-.navBar a::before {
+.navBar a:hover::before {
   width: 100%;
+}
+
+.navBar::after {
+  color: darkred;
 }
