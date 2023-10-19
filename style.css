@@ -102,14 +102,52 @@ main {
   font-size: large;
 }
 
+
 button {
-  border: 5px solid;
+  color: #D6AD60;
+  background-color: #292b34;
+  border: 3px solid #D6AD60;
+  border-radius: 11px;
   position: absolute;
+  width: 277px;
+  height: 80px;
   top: 73%;
   left: 50%;
+  gap: 10px;
   transform: translate(-50%, -50%);
   padding: 10px;
-  color: #D6AD60;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 13px 23px;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+/*
+button {
+  display: flex;
+  width: 277px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+
+}*/
+
+
+button:hover {
+  background-color: #121626;
+}
+
+button:active {
+  box-shadow: 0 4px rgb(210, 206, 198);
+
+  transform: translateY(2px);
 }
 
 /*
