@@ -8,6 +8,12 @@
 body {
   background-color: #121626;
   color: #D6AD60;
+  margin: 0;
+}
+
+main {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .backgroundIMG img {
@@ -65,10 +71,51 @@ body {
 }
 
 .logo {
-  font-size: 32px;
-  color: navy;
+  color: rgb(113, 113, 140);
   text-decoration: none;
+  background-color: #504946;
+}
 
+.navbar ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  background-color: #504946;
+}
+
+.navbar a {
+  color: #D6AD60;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover {
+  color: #946b1f;
+}
+
+.navbar li {
+  float: right;
+  font-weight: 900;
+  font-size: large;
+}
+
+button {
+  border: 5px solid;
+  position: absolute;
+  top: 73%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  color: #D6AD60;
+}
+
+/*
+.navBar {
+  padding: 0px;
+  margin: 0px;
 }
 
 .navBar a {
@@ -97,4 +144,4 @@ body {
 
 .navBar::after {
   color: darkred;
-}
+}*/
