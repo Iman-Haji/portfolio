@@ -157,11 +157,13 @@ body {
 .companyInfo {
   display: flex;
   width: 244px;
-  height: 83px;
+  height: 85px;
   font-size: x-large;
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
+  padding-left: 1%;
+  padding-top: 1%;
 }
 
 /*
@@ -173,7 +175,7 @@ body {
 .home {
   display: flex;
   width: 169px;
-  height: 83px;
+  height: 85px;
   flex-direction: column;
   justify-content: right;
   flex-shrink: 0;
@@ -182,7 +184,7 @@ body {
 .about {
   display: flex;
   width: 127px;
-  height: 83.778px;
+  height: 85px;
   flex-direction: row;
   justify-content: center;
   flex-shrink: 0;
@@ -191,7 +193,7 @@ body {
 .projects {
   display: flex;
   width: 168px;
-  height: 83px;
+  height: 85px;
   flex-direction: row;
   justify-content: center;
   flex-shrink: 0;
@@ -200,7 +202,7 @@ body {
 .contactus {
   display: flex;
   width: 196px;
-  height: 83px;
+  height: 85px;
   flex-direction: row;
   justify-content: center;
   flex-shrink: 0;
@@ -209,7 +211,7 @@ body {
 .socials {
   display: flex;
   width: 244px;
-  height: 83px;
+  height: 85px;
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
@@ -218,7 +220,7 @@ body {
 .instagram {
   display: flex;
   width: 198px;
-  height: 83px;
+  height: 85px;
   flex-direction: row;
   justify-content: center;
   flex-shrink: 0;
@@ -227,7 +229,7 @@ body {
 .linkedin {
   display: flex;
   width: 144px;
-  height: 99px;
+  height: 85px;
   flex-direction: row;
   justify-content: center;
   flex-shrink: 0;
@@ -260,8 +262,19 @@ button:hover {
   background-color: #121626;
   color: #f4e0bb;
   border: 3px solid #f4e0bb;
+}
+
+.trademark {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-top: 10%;
+  padding-bottom: 2%;
+  padding-right: 2%;
 
 }
+
+
 
 /*button:active {
   box-shadow: 0 7px rgb(210, 206, 198);
