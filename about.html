@@ -44,11 +44,11 @@
 
 
           <!-- this is for the beginning of the page-->
-    <div class="colorful-section inquiry"> <!--     -->
+    <div class="colorful-section-blue"> <!--     -->
 
 
       <!--contact form-->
-      <form class="contact-form" action="contact-form">
+      <form class="contact-form" method="get" action="contact-form" autocomplete="on">
         <label for="firstName"></label>
         <div>
           <input type="text" name="firstName" id="firstName" placeholder="*First Name" required>
@@ -68,11 +68,15 @@
         <div>
           <textarea name="freeform" id="freeform" cols="45" rows="5" placeholder="*Message..." required></textarea>
         </div>
+      </form>
 
+
+
+
+
+      <div>
         <p class="termsAndConditions">By pressing <strong>Send</strong>, you agree to our</p>
         <p class="termsAndConditions"><a href="termsAndConditions.html">Terms and Conditions.</a></p>
-      </form>
-      <div>
         <a href="contact.html">
           <button id="button">Send</button>
         </a>

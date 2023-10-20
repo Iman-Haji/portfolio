@@ -278,25 +278,25 @@ button:hover {
 
 /*            ABOUT HTML           */
 
-/*
 .userInquiry {
   border: 5px solid;
   text-align: center;
-}*/
+}
 
 .workWithUs {
   width: 648px;
+  height: 54px;
   color: #FEFFFC;
-  text-align: center;
   font-size: 40px;
   font-weight: 400;
   letter-spacing: 4px;
+
 }
 
 .inquire {
   width: 648px;
+  height: 40px;
   color: #FEFFFC;
-  text-align: center;
   font-family: Cinzel;
   font-size: 30px;
   font-weight: 400;
@@ -304,19 +304,67 @@ button:hover {
 }
 
 /*      FORM      */
+.colorful-section-blue {
+  width: 1920px;
+  height: 1080px;
+  color: #121626;
+}
+
+input[type=text] {
+  width: 465px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  /*
+  width: 465px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 11px;
+  background: #504946;*/
+}
+
+textarea {
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  height: 126px;
+  /*width: 809px;
+  height: 290px;
+  flex-shrink: 0;
+  border-radius: 11px;
+  background: #504946;
+  font-style: normal;
+  color: #D0D7E7;
+  font-size: large;
+  margin-left: 600px;
+  margin-top: 1px;
+  margin-right: 900px;*/
+}
 
 
 .termsAndConditions {
-  display: flex;
   width: 523px;
+  display: flex;
   height: 35px;
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
+  align-items: center;
+  text-align: left;
+  display: flex;
+
+
 }
 
-
 /*            ABOUT HTML           */
+
+
+
+
 
 
 /*index html*/
