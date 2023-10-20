@@ -8,9 +8,10 @@
 body {
   background-color: #121626;
   color: #D6AD60;
-  margin: 0;
 }
 
+
+/*            INDEX HTML           */
 
 .backgroundIMG img {
   opacity: 22%;
@@ -275,6 +276,37 @@ button:hover {
 }
 
 
+/*            ABOUT HTML           */
+
+/*
+.userInquiry {
+  border: 5px solid;
+  text-align: center;
+}*/
+
+.workWithUs {
+  width: 648px;
+  color: #FEFFFC;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.inquire {
+  width: 648px;
+  color: #FEFFFC;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+
+
+
+
+/*index html*/
 
 /*button:active {
   box-shadow: 0 7px rgb(210, 206, 198);
