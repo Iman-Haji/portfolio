@@ -11,10 +11,6 @@ body {
   margin: 0;
 }
 
-main {
-  margin-left: 20px;
-  margin-right: 20px;
-}
 
 .backgroundIMG img {
   opacity: 22%;
@@ -127,6 +123,23 @@ button {
   font-weight: bold;
 }
 
+.companynav a {
+  color: #D6AD60;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: left;
+}
+
+.companynav li {
+  float: left;
+  font-weight: 900;
+  font-size: large;
+}
+
+
+
+
 /*
 button {
   display: flex;
@@ -150,13 +163,17 @@ button:active {
   transform: translateY(2px);
 }
 
-
+.colorful-section li {
+  display: flex;
+  justify-content: row;
+}
 
 .colorful-section {
   height: 100vh;
   /* 100% of the specified viewport height */
   width: 100%;
   /*transition: background-color 0.5s;*/
+
 }
 
 .first {
@@ -201,7 +218,7 @@ button:active {
   display: flex;
   width: 127px;
   height: 83.778px;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   flex-shrink: 0;
 }
@@ -210,7 +227,7 @@ button:active {
   display: flex;
   width: 168px;
   height: 83px;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   flex-shrink: 0;
 }
@@ -219,7 +236,7 @@ button:active {
   display: flex;
   width: 196px;
   height: 83px;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   flex-shrink: 0;
 }
@@ -237,7 +254,7 @@ button:active {
   display: flex;
   width: 198px;
   height: 83px;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   flex-shrink: 0;
 }
@@ -246,7 +263,7 @@ button:active {
   display: flex;
   width: 144px;
   height: 99px;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   flex-shrink: 0;
 }
