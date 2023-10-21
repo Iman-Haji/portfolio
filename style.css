@@ -433,7 +433,7 @@ textarea {
   position: relative;
   align-items: center;
   float: center;
-  margin-left: 100%;
+  margin-left: 93%;
   margin-top: 40px;
 
 }
@@ -538,6 +538,83 @@ textarea {
   justify-content: center;
   margin-left: 26%;
 }
+
+
+/*            PROJECT HTML           */
+
+
+.skills {
+  padding: 20px;
+  margin: 30px;
+}
+
+.h3P {
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: auto;
+}
+
+strong {
+  color: #EFE2CC;
+}
+
+.skill {
+  margin-bottom: 20px;
+  margin: 40px;
+}
+
+.progress-bar {
+  background-color: #D6AD60;
+  height: 20px;
+  border-radius: 11px;
+}
+
+.progress {
+  border-radius: 10px;
+  width: 50%;
+  height: 100%;
+  background-color: #121626;
+}
+
+
+
+/*back to top btn */
+
+#back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background: #0074D9;
+  /* Blue color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Styling for mobile menu (responsive with CSS media queries) */
+
+.mobile-menu {
+  display: none;
+  /* Style your mobile menu here */
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
