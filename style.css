@@ -509,7 +509,7 @@ textarea {
   height: 80px;
   top: 200%;
   left: 50%;
-  gap: 10px;
+  gap: 11px;
   transform: translate(-50%, -50%);
   text-align: center;
   align-items: center;
@@ -567,9 +567,10 @@ strong {
   margin: 40px;
 }
 
+/*
 .progress-bar {
   background-color: #D6AD60;
-  height: 20px;
+  height: 30px;
   border-radius: 11px;
 }
 
@@ -578,12 +579,85 @@ strong {
   width: 50%;
   height: 100%;
   background-color: #121626;
+}*/
+
+.html {
+  font-size: 25px;
+}
+
+.css {
+  font-size: 25px;
+}
+
+.javascript {
+  font-size: 25px;
+}
+
+.css {
+  font-size: 25px;
+}
+
+.design {
+  font-size: 25px;
+}
+
+/* progress bar for each skill individually */
+
+
+.progress-barHTML {
+  background-color: #D6AD60;
+  height: 30px;
+  border-radius: 11px;
+}
+
+.progressHTML {
+  border-radius: 10px;
+  width: 90%;
+  height: 100%;
+  background-color: #121626;
+}
+
+.progress-barCSS {
+  background-color: #D6AD60;
+  height: 30px;
+  border-radius: 11px;
+}
+
+.progressCSS {
+  border-radius: 10px;
+  width: 76%;
+  height: 100%;
+  background-color: #121626;
+}
+
+.progress-barJS {
+  background-color: #D6AD60;
+  height: 30px;
+  border-radius: 11px;
+}
+
+.progressJS {
+  border-radius: 10px;
+  width: 50%;
+  height: 100%;
+  background-color: #121626;
+}
+
+.progress-barDesign {
+  background-color: #D6AD60;
+  height: 30px;
+  border-radius: 11px;
+}
+
+.progressDesign {
+  border-radius: 10px;
+  width: 66%;
+  height: 100%;
+  background-color: #121626;
 }
 
 
-
 /*back to top btn */
-
 #back-to-top {
   display: none;
   position: fixed;
@@ -597,11 +671,10 @@ strong {
   border-radius: 5px;
 }
 
-/* Styling for mobile menu (responsive with CSS media queries) */
+/* Styling for mobile menu (responsive with CSS media queries) maybe */
 
 .mobile-menu {
   display: none;
-  /* Style your mobile menu here */
 }
 
 
