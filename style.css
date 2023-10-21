@@ -484,6 +484,8 @@ textarea {
   margin: auto;
   width: 640px;
   padding: 50px;
+  line-height: 150%;
+
 }
 
 .mainTerms {
@@ -494,6 +496,7 @@ textarea {
   margin: auto;
   width: 640px;
   padding: 50px;
+  line-height: 1.6;
 }
 
 .buttonBack {
@@ -504,7 +507,7 @@ textarea {
   position: absolute;
   width: 277px;
   height: 80px;
-  top: 190%;
+  top: 200%;
   left: 50%;
   gap: 10px;
   transform: translate(-50%, -50%);
@@ -517,15 +520,23 @@ textarea {
   flex-shrink: 0;
   font-size: x-large;
   font-weight: bold;
+  position: absolute;
+  margin-bottom: 100%;
 }
 
 .checkbox {
   content: "";
   display: inline-block;
   border: 1px solid #D6AD60;
+  padding: 5px;
+  cursor: pointer;
   width: 50%;
   height: 100%;
   margin-right: 0.5rem;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-left: 26%;
 }
 
 
