@@ -10,9 +10,7 @@ body {
   color: #D6AD60;
 }
 
-
 /*            INDEX HTML           */
-
 .backgroundIMG img {
   opacity: 22%;
   width: 1800px;
@@ -117,12 +115,13 @@ body {
   background: rgba(217, 217, 217, 0.40);
 }
 
+/*i wont change the default name i chose. ill simply change colours etc.*/
 .blue {
-  background-color: blue;
+  background-color: #504946;
 }
 
 .green {
-  background-color: green;
+  background-color: #291D3A;
 }
 
 .company {
@@ -389,7 +388,6 @@ textarea {
   width: 500px;
 }
 
-
 .TCP p {
   font-size: 25px;
 }
@@ -409,8 +407,6 @@ textarea {
 .TCP a:active {
   color: #f4e0bb;
 }
-
-
 
 
 .buttonSend {
@@ -435,7 +431,6 @@ textarea {
   float: center;
   margin-left: 93%;
   margin-top: 40px;
-
 }
 
 .centered {
@@ -594,39 +589,33 @@ strong {
   color: #121626;
   transition: 0.5s;
   cursor: default;
-
 }
 
 .css {
   font-size: 25px;
   cursor: default;
-
 }
 
 .css:hover {
   color: #121626;
   transition: 0.5s;
   cursor: default;
-
 }
 
 .javascript {
   font-size: 25px;
   cursor: default;
-
 }
 
 .javascript:hover {
   color: #121626;
   transition: 0.5s;
   cursor: default;
-
 }
 
 .design {
   font-size: 25px;
   cursor: default;
-
 }
 
 .design:hover {
@@ -695,7 +684,6 @@ strong {
 }
 
 
-
 /*back to top btn */
 #back-to-top {
   display: none;
@@ -718,9 +706,30 @@ strong {
 
 
 
+/*            INQUIRY HTML           */
 
+.thankYou {
+  width: 600px;
+  height: 120px;
+  top: 511px;
+  left: 636px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  top: 50%;
+  bottom: 50%;
+  padding-top: 25%;
+}
 
-
+.thankYouInquiry {
+  width: 648px;
+  height: 54px;
+  color: #FEFFFC;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  align-items: center;
+}
 
 
 
