@@ -715,7 +715,6 @@ strong {
   left: 636px;
   text-align: center;
   align-items: center;
-  display: flex;
   top: 50%;
   bottom: 50%;
   padding-top: 25%;
@@ -731,7 +730,38 @@ strong {
   align-items: center;
 }
 
+.userInquiryHTML {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 2%;
+}
 
+.buttonBackInquiry {
+  color: #eff0f8;
+  background-color: #504946;
+  border: 3px solid #eff0f8;
+  border-radius: 11px;
+  position: absolute;
+  width: 277px;
+  height: 80px;
+  top: 80%;
+  left: 50%;
+  gap: 11px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 13px 23px;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-size: x-large;
+  font-weight: bold;
+  position: absolute;
+  margin-bottom: 100%;
+}
 
 
 
