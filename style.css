@@ -453,16 +453,48 @@ textarea {
 
 
 
+/*            TERMS AND CONDITIONS HTML           */
 
+.bodyTC {
+  background: #EFE2CC;
+  color: #000;
+  margin: 0;
 
+}
 
+.headerTerms {
+  width: 880px;
+  height: 180px;
+  align-items: center;
+  text-align: center;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin: auto;
+  width: 640px;
+  padding: 50px;
+}
 
+.lastUpdated {
+  height: 160px;
+  flex-shrink: 0;
+  display: flex;
+  padding-top: 2px;
+  margin: auto;
+  width: 640px;
+  padding: 50px;
+}
 
-
-
-
-
-
+.mainTerms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  margin: auto;
+  width: 640px;
+  padding: 50px;
+}
 
 /*index html*/
 
