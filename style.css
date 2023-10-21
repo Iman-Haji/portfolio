@@ -11,6 +11,42 @@ body {
 }
 
 /*            INDEX HTML           */
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: #e0dae8;
+  width: 280px;
+  height: 400px;
+  margin: 15px;
+  border-radius: 15px;
+}
+
+.card-image {
+  height: 270px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+
+.card1 {
+  background-image: url('https://i.pinimg.com/564x/d3/3e/e3/d33ee372509f3eb0ad15166fe22671b5.jpg');
+}
+
+.card2 {
+  background-image: url('https://i.pinimg.com/564x/d3/3e/e3/d33ee372509f3eb0ad15166fe22671b5.jpg');
+}
+
+.card3 {
+  background-image: url('https://i.pinimg.com/564x/ce/3e/f0/ce3ef02937d90d6e2656fd15476e1860.jpg');
+}
+
+
+
 .backgroundIMG img {
   opacity: 22%;
   width: 1800px;
@@ -116,13 +152,6 @@ body {
 }
 
 /*i wont change the default name i chose. ill simply change colours etc.*/
-.blue {
-  background-color: #504946;
-}
-
-.green {
-  background-color: #291D3A;
-}
 
 .company {
   background-color: #D0D7E7;
@@ -316,7 +345,9 @@ button:hover {
   align-items: center;
   float: center;
   margin-left: 30%;
+  size-adjust: none;
 }
+
 
 .colorful-section-blue {
   width: 1900px;
